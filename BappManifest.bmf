@@ -1,0 +1,11 @@
+Uuid: 9fea3ce4e79d450a9a15d05a79f9d349
+ExtensionType: 1
+Name: Same Origin Method Execution
+ScreenVersion: 0.0.1
+SerialVersion: 0
+MinPlatformVersion: 0
+ProOnly: False
+Author: Luca Carettoni, LinkedIn
+ShortDescription: Monitor HTTP Request and Responses to determine if a webpage is vulnerable to Same Origin Method Execution
+EntryPoint: target/sometime-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+BuildCommand: mvn package -DskipTests=true -Dmaven.javadoc.skip=true -B
