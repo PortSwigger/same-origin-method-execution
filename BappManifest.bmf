@@ -6,6 +6,6 @@ SerialVersion: 0
 MinPlatformVersion: 0
 ProOnly: False
 Author: Luca Carettoni, LinkedIn
-ShortDescription: Monitor HTTP Request and Responses to determine if a webpage is vulnerable to Same Origin Method Execution
+ShortDescription: Detects same origin method execution vulnerabilities.
 EntryPoint: target/sometime-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 BuildCommand: mvn package -DskipTests=true -Dmaven.javadoc.skip=true -B
